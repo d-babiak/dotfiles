@@ -1,0 +1,12 @@
+nnoremap K 2k
+nnoremap J 2j
+
+nnoremap H 3h
+nnoremap L 3l
+
+set nu
+
+vmap <S-c> "*y
+
+nnoremap B <S-{>zz 
+nnoremap N <S-}>zz 
