@@ -22,14 +22,16 @@ set ruler
 nnoremap Q :qa!<CR>
 nnoremap W :w<CR>
 
-nnoremap <S-h> 2h
+nnoremap <S-h> 3h
 nnoremap <S-k> 2k
 nnoremap <S-j> 2j
-nnoremap <S-l> 2l
+nnoremap <S-l> 3l
 
-vmap <S-c> "*y
+" vmap <S-c> "*y
+vmap <S-c> "+y
 
 xnoremap p pgvy
 set timeoutlen=1000 ttimeoutlen=0
 let g:loaded_matchparen=1
 
+set clipboard=unnamedplus

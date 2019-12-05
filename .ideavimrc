@@ -6,7 +6,7 @@ nnoremap L 3l
 
 set nu
 
-vmap <S-c> "*y
+vmap <S-c> "+y
 
 nnoremap B <S-{>zz 
 nnoremap N <S-}>zz 
